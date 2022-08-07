@@ -1,0 +1,31 @@
+
+
+<!-- <app-sign-up></app-sign-up> -->
+<app-nav></app-nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mt-2 border">
+      <div class="">
+        <button (click)="counterneg()">--</button>
+        <p>output:{{count}}</p>
+        <button (click)="counterplus()">++</button>
+      </div><br>
+      <!-- anthoer way -->
+      <div class="">
+        <button (click)="counter('minus')">--</button>
+        <p>output:{{counts}}</p>
+        <button (click)="counter('plus')">++</button>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <!-- <app-sign-up></app-sign-up>
+      <app-home></app-home> -->
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+<div class="col-md-12 footor fixed-bottom">
+  <p>Footer</p>
+</div>
+

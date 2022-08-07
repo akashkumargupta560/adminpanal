@@ -1,0 +1,8 @@
+            <h2>Event function</h2>
+            <input type="text" class="form-control" placeholder="Enter FullName keyup" #box1  name="name"   id="name1" (keyup)="getValue1(box1.value)"><br>
+            <input type="text" class="form-control" placeholder="Enter FullName blur" #box2  name="name"   id="name2" (blur)="getValue1(box2.value)"><br>
+            <input type="text" class="form-control" placeholder="Enter FullName input" #box3  name="name"   id="name3" (input)="getValue1(box3.value)"><br>
+            <h4 (mouseover)="getValue1('get')">mouseover event</h4>
+            <h4 (mouseleave)="getValue1('leave')">mouseleave event</h4>
+            <br>
+            <p>Output:- {{displayVal1}} </p>
