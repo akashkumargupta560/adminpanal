@@ -1,5 +1,9 @@
 .reg{
-    /* text-align: center; */
+    text-align: center;
     color: brown;
     font-size: 30px;
+}
+
+.bg{
+    border-radius: 10px;
 }
