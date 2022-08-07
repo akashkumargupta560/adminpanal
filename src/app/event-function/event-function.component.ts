@@ -18,5 +18,8 @@ export class EventFunctionComponent implements OnInit {
     //this.isShowData=true;
     this.displayVal1=value
   }
-
+display=false;
+  toggle(){
+this.display=!this.display; //this proccess called negiation 
+  }
 }
